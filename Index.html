@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco Recetas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+
+<!-- Header -->
+<header class="p-4 flex justify-between items-center shadow">
+  <h1 class="text-2xl font-bold text-green-600">Eco Recetas</h1>
+  <button id="toggleDark" class="px-4 py-2 bg-green-600 text-white rounded">🌙 / ☀️</button>
+</header>
+
+<!-- Hero -->
+<section class="text-center py-16 px-4">
+  <h2 class="text-4xl font-bold text-green-700 mb-4">Alimenta tu vida de forma natural</h2>
+  <p class="text-lg">Recetas saludables hechas con productos frescos del campo.</p>
+</section>
+
+<!-- Cards de recetas -->
+<section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6" id="recetasContainer"></section>
+
+<!-- Formulario de suscripción -->
+<section class="bg-green-100 dark:bg-green-800 p-6 text-center">
+  <h3 class="text-2xl font-semibold">Recibe recetas saludables cada semana</h3>
+  <form id="formSuscribir" class="mt-4 flex justify-center gap-2 flex-wrap">
+    <input type="email" id="email" placeholder="Tu correo" class="border p-2 rounded w-full sm:w-auto">
+    <button class="bg-green-600 text-white px-4 py-2 rounded">Suscribirme</button>
+  </form>
+  <p id="msg" class="mt-2"></p>
+</section>
+
+<!-- Footer -->
+<footer class="p-4 text-center">
+  Hecho por Oscar Torres Quintero
+ 
+</footer>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
