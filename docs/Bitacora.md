@@ -75,7 +75,7 @@ También se documentaron secciones principales mediante comentarios internos en 
 # ✅ Bitácora #3
 
 ## 📅 Fecha
-05 / Nov / 2025
+03 / Nov / 2025
 
 ## 👤 Responsable
 Valery Eilin Palacios Rocha
@@ -115,7 +115,7 @@ Tarjetas ubicadas en secciones “Flores recomendadas” y “Flores populares�
   # ✅ Bitácora #4
 
 ## 📅 Fecha
-06 / Nov / 2025
+03 / Nov / 2025
 
 ## 👤 Responsable
 Oscar Torres Quintero
@@ -149,3 +149,4 @@ html {
 ```html
 <a href="#flores" class="mx-auto ...">Ver Flores</a>
 ```
+
